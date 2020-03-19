@@ -1,7 +1,7 @@
 package estrutura.dados.fila;
 /**
  * Caracteristica da fila:
- * firs in, first out  
+ * firs in, first out  ou FIFO
  * Primeiro elemento que entra na fila primeiro elemento que saida da fila
  * @author afzs
  *

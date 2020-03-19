@@ -1,8 +1,11 @@
 package estrutura.dados.pilhas;
 /**
- * Caracteristica da pilha:
- * Primeiro elemento que entra na pilha sera o ultimo a sair dela
+ * Caracteristica da pilha: 
  * 
+ * LIFO - Last In, First Out
+ * Ultimo elemento que entra, primeiro que sai.
+ * 
+ *  
  * @author afzs
  *
  */
