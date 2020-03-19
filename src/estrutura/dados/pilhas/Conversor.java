@@ -14,7 +14,6 @@ public class Conversor {
 			resto = numero % 2; // pega o resto da divisão
 			pilha.push(resto); // Coloca o resto na pilha
 			numero = numero / 2; // faz a divisão para iniciar um novo ciclo
-
 		}
 
 		// MOSTRA OS RESULTADOS ARMAZENADOS NA PILHA

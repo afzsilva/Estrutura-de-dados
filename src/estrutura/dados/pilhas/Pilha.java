@@ -1,5 +1,11 @@
 package estrutura.dados.pilhas;
-
+/**
+ * Caracteristica da pilha:
+ * Primeiro elemento que entra na pilha sera o ultimo a sair dela
+ * 
+ * @author afzs
+ *
+ */
 public class Pilha {
 
 	private int valores[];
@@ -11,8 +17,7 @@ public class Pilha {
 	}
 
 	/**
-	 * Remove o elemento no topo da pilha
-	 * 
+	 * Remove o elemento no topo da pilha	 * 
 	 * @param elemento int
 	 */
 	public void push(int elemento) {
@@ -21,16 +26,14 @@ public class Pilha {
 
 	}
 
-	/**
-	 * 
+	/** 
 	 * @return true se a pilha estiver vazia
 	 */
 	public boolean isEmpty() {
 		return topo == -1;
 	}
 
-	/**
-	 * 
+	/** 
 	 * @return true se a pilha estiver cheia
 	 */
 	public boolean isFull() {
@@ -38,8 +41,7 @@ public class Pilha {
 	}
 
 	/**
-	 * Remove um elemento do topo da pilha
-	 * 
+	 * Remove um elemento do topo da pilha	 * 
 	 * @return int
 	 */
 	public int pop() {
