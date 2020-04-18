@@ -5,7 +5,6 @@ package estrutura.dados.pilhas;
  * LIFO - Last In, First Out
  * Ultimo elemento que entra, primeiro que sai.
  * 
- *  
  * @author afzs
  *
  */

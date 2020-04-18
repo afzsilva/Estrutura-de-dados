@@ -20,6 +20,10 @@ public class Fila {
 		total = 0;
 	}
 	
+	/**
+	 * Insere um elemento no fim da fila
+	 * @param elemento
+	 */
 	public void inserir(int elemento) {
 		valores[fim] = elemento;
 		fim += 1;
@@ -31,6 +35,10 @@ public class Fila {
 		total++;
 	}
 	
+	/**
+	 * Retira um elemento do final da fila
+	 * @return
+	 */
 	public int retirar() {
 		int elemento = valores[inicio];
 		inicio+=1;
